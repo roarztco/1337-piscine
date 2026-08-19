@@ -7,7 +7,7 @@ int ft_is_prime(int nb)
     i = 2;
     if(nb < 2)
         return 0;
-    while(i < nb)
+    while(i <= nb / i)
     {
         if(nb % i == 0)
             return(0);
